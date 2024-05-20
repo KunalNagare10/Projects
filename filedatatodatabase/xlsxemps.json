@@ -1,0 +1,57 @@
+{
+  "metadataList": [
+    {
+      "columnName": "Emp_id",
+      "dataType": "String",
+      "maxColumnLength": 6
+    },
+    {
+      "columnName": "Emp_name",
+      "dataType": "String",
+      "maxColumnLength": 15
+    },
+    {
+      "columnName": "Contact",
+      "dataType": "Long",
+      "maxColumnLength": 10
+    },
+    {
+      "columnName": "Salary",
+      "dataType": "Double",
+      "maxColumnLength": 8
+    },
+    {
+      "columnName": "Location",
+      "dataType": "String",
+      "maxColumnLength": 6
+    }
+  ],
+  "dataTypeMap": {
+    "Emp_id": "String",
+    "Salary": "Double",
+    "Emp_name": "String",
+    "Contact": "Long",
+    "Location": "String"
+  },
+  "colAsPrKey": "Emp_id",
+  "ogPrKey": "empId",
+  "maps": {
+    "emp_data": [
+      "empId",
+      "ename",
+      "contact",
+      "salary",
+      "loc"
+    ]
+  },
+  "databaseColnDisplayCol": {
+    "empId": "Emp_id",
+    "loc": "Location",
+    "ename": "Emp_name",
+    "contact": "Contact",
+    "salary": "Salary"
+  },
+  "dbUrl": "jdbc:oracle:thin:@10.165.187.30:1522/orcl12c",
+  "dbUsername": "DEV_LOS",
+  "dbPassword": "DEV_LOS"
+}
